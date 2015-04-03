@@ -1,7 +1,7 @@
 SAS Program Description
 =======================
 
-## Intro
+## Introduction  
 
 The accompanying SAS code was created for an assignment in an introductory SAS programming class. Running the code will produce the SAS datasets, lists, and reports. The creation of the datasets are explained below.
  	
