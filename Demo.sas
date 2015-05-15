@@ -182,7 +182,7 @@ proc sort data=weight_set;
     by sex;
 run;
 
-/*Creation of the dataset CATEGORY as a merge of PAT_INFO and WEIGHT_SET*/
+/*Creation of the dataset CATEGORY as a (one-to-many) merge of PAT_INFO and WEIGHT_SET*/
 proc format ;
     value wt_cat 1='<= Median Weight' 2='> Median Weight';
 run;
